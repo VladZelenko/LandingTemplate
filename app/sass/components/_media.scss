@@ -3,11 +3,9 @@
 			display: none;
 			li a {
 				border-top: 1px solid #eee;
-				background: $primary_font_color;
 				color: $primary_font_color;
 
 				&:hover {
-					background: #f0f0f0;
 					color: $secondary_font_color;
 					border-left: 3px solid $accent_color
 				}
