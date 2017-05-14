@@ -24,3 +24,5 @@ function closeNav(){
 	document.getElementById('nav').style.width = "0%";
 	document.getElementById('open-btn-nav').style.opacity = "1";
 }
+
+// $('.hero-carousel').slick();

@@ -8476,10 +8476,25 @@ button.close {
     text-align: center;
     text-transform: uppercase; }
   .hero h3.subtitle {
+    margin: 0 0 145px 0;
     color: #ffffff;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.15);
     font: 300 45px "Roboto", sans-serif; }
+  .hero .hero-carousel {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .primary-nav .nav {

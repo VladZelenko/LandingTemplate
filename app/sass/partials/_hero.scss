@@ -18,10 +18,15 @@
 		text-transform: uppercase;
 	}
 	h3.subtitle {
+		margin: 0 0 145px 0;
 		color: $secondary_font_color;
 		text-align: center;
 		text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.15);
 		font: 300 45px $primary_font;
 	}
-
+	.hero-carousel {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
 }
