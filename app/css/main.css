@@ -8469,6 +8469,17 @@ button.close {
     height: 20px;
     margin: 88px auto 0 auto;
     background-image: url("../../img/divide.png"); }
+  .hero h2.title {
+    margin: 265px 0 0 0;
+    color: #ffffff;
+    font: 700 58px "Roboto", sans-serif;
+    text-align: center;
+    text-transform: uppercase; }
+  .hero h3.subtitle {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.15);
+    font: 300 45px "Roboto", sans-serif; }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .primary-nav .nav {

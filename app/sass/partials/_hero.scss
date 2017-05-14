@@ -10,4 +10,18 @@
 		margin: 88px auto 0 auto;
 		background-image: url('../../img/divide.png');
 	}
+	h2.title {
+		margin: 265px 0 0 0;
+		color: $secondary_font_color;
+		font: 700 58px $primary_font;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	h3.subtitle {
+		color: $secondary_font_color;
+		text-align: center;
+		text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.15);
+		font: 300 45px $primary_font;
+	}
+
 }
